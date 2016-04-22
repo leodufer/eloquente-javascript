@@ -40,19 +40,19 @@ git push origin traduccionCapX
 
 **4.** Envie um _Pull Request_ com las alteraciones hechas, haciendo referencia para el `master` del repositorio oficial.
 
-**5.** Sua contribuição será analisada pela comunidade. Em alguns casos pediremos algumas alterações antes de dar merge.
+**5.** Su contrubución será analizada por la comunidad. Em algunos casos pediremos algunas alteraciones antes de dar merge.
 
-Após o merge:
+Después del merge:
 
-- Delete a branch utilizada:
+- Delete el branch utilizado:
 
 ```
 git checkout master
-git push origin :traducaoCapX
-git branch -D traducaoCapX
+git push origin :traducionCapX
+git branch -D traducionCapX
 ```
 
-- Atualize seu repositório com o repositório oficial:
+- Actualice su repositorio com el repositorio oficial:
 
 ```
 git fetch upstream
@@ -60,39 +60,39 @@ git rebase upstream/master
 git push -f origin master
 ```
 
-**6.** Quando iniciar uma nova contribuição, inicie repita o processo pelo passo 2.
+**6.** Cuando inicies una nueva contribución, repita el processo inciando por el paso 2.
 
-### Boas práticas
+### Buenas prácticas
 
-- **Não traduza termos técnicos e blocos de código**
-- Antes de enviar sua contribuição, certifique-se de que está enviando apenas um **único** commit que represente o que foi feito. Caso tenha feito vários commits, [esmague-os](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html) antes de fazer o _Pull Request_.
-- Caso tenha qualquer tipo de dúvida, abre uma _Issue_ que faremos o possível para te ajudar.
-- Não adicione comentários nas issues de “log”. Elas tem apenas a finalidade de armazenar referências ao trabalho de cada capítulo.
-- Contribua com as discussões.
-- Delimitação para títulos de obras: Utilizar o travessão (—) para o início da frase, nome do autor e logo após o nome da obra, sem alterar nenhum valor. Exemplo:
+- **No traduzcas terminos técnicos e bloques de código**
+- Antes de enviar su contribción, certifique-se de que está enviando apenas un **único** commit que represente lo que fue hecho. Caso tengas varios commits, [aplastelos](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html) antes de hacer el _Pull Request_.
+- Caso tengas cualquier tipo de duda, habra una _Issue_ que haremos lo possible para ajudarte.
+- No adicione comentarios en las issues de "log" “log”. Ellas tiemen la finalidad de almacenar referencias al trabajo de cada capítulo.
+- Colabore con las discusiones.
+- Delimitación para títulos de obras: Utilizar el travesaño (—) para el inicio de la frase, nombre del autor y luego después el nombre de la obra, sin alterar ningun valor. Ejemplo:
 
 > — Master Yuan-Ma, The Book of Programming
 
-- Estrangeirismo: Utilizar o formato itálico. Exemplo: _bug_
-- Sentido Figurado: Sempre destacar com aspas duplas.
-- Citação: Aspas duplas com o sinal de >. Exemplo:
+- Estrangerismo: Utilizar el formato itálico. Ejemplo: _bug_
+- Sentido Figurado: Siempre destacar com comillas dobles.
+- Citación: Comillas dobles con el signo de >. Ejemplo:
 
 > “Foo bar”
 
-- Marcação para código: Utilizar um apóstrofe (\`) para indicar um pedaço de código no meio de um texto (`var foo = undefined`). Ou três apóstrofe com o nome da linguagem de programação na frente (\`\`\`js), para indicar um bloco de código:
+- Marcación para código: Utilizar um apóstrofe (\`) para indicar un pedazo de código en medio de um texto (`var foo = undefined`). O tres apóstrofes con el nomnbre del lenguaje de programación en frente (\`\`\`js), para indicar um bloco de código:
 
 ```js
 var foo;
 foo = undefined;
 ```
 
-### Dúvidas em tradução de termos, palavras, expressões etc…
+### Dudas en traducciones de términos, palabras, expresiones etc…
 
-Quando estiver em uma situação em que você não sabe exatamente como traduzir uma palavra, termo ou expressão, nós recomendamos que siga os seguintes passos:
+Cuando estes en una situación en que no sabes exatamente como traducir una palabra, término ou expresión, recomendamos que sigas los seguintes passos:
 
-**1.** Abra uma _Issue_ com um título descritivo como por exemplo: “_Como traduzir a palavra/termo “x”?_” e coloque uma descrição fazendo referência à linha e o capítulo que esteja trabalhando.
+**1.** Habra una _Issue_ con un título descriptivo como por ejemplo: “_Como traducir la palavra/término “x”?_” y coloque una descripción haciendo referencia a la linea e y el capítulo que estes trabayando.
 
-**2.** Adicione uma tag `[TODO: ref #<número-da-issue-da-discussão>]<palavra/termo não traduzido>[/TODO]` e continue trabalhando no arquivo enquanto não há uma conclusão na _Issue_. Esse processo é importante para facilitar o acesso a itens pendentes e ter uma referência clara onde está ocorrendo a discussão.
+**2.** Adicione una tag `[TODO: ref #<número-de-issue-dae-discusión>]<palabra/término no traducido>[/TODO]` y continue trabayando en el archivo mientras no haya uaa conclusión en la _Issue_. Esse processo é importante para facilitar o acesso a itens pendentes e ter uma referência clara onde está ocorrendo a discussão.
 
 **3.** Após a conclusão da discussão na _Issue_, feche a mesma. Em seguida, remova a tag adicionada no passo 2 e atualize a palavra/termo não traduzido.
 
