@@ -1,43 +1,44 @@
-# Contribuições
+# Contribuciones
 
-### Por onde começar?
+### Por dónde comenzar?
 
-**1.** Faça o _fork_ do projeto.
+**1.** Hacer el _fork_ del proyecto.
 
-**2.** [Entenda nosso fluxo](#fluxo).
+**2.** [Entender nuestro flujo](#fluxo).
 
-**3.** [Leia e pratique as boas práticas](#boas-pr%C3%A1ticas).
+**3.** [Lea y pratique las buenas prácticas](#boas-pr%C3%A1ticas).
 
-### Fluxo
+### Flujo
 
-É muito fácil contribuir para o projeto. Qualquer tipo de ajuda (seja ela grande ou pequena) é bem-vinda. Se encontrar qualquer parte do livro que possa ser melhorada, essa é uma grande oportunidade para participar ([aqui](https://github.com/braziljs/eloquente-javascript/issues?q=is%3Aopen+is%3Aissue+label%3Amelhorias) é um ótimo lugar para achar coisas que possam ser melhoradas). Caso não saiba por onde começar:
+Es muy facil contribuir para el proyecto. Cualquier tipo de ayudad (sea grande o pequeña) es bienvenida. Si encuentras cualquier parte del libro que pueda ser mejorada, esa es una gran oportunidad para participar
+([aqui](https://github.com/braziljs/eloquente-javascript/issues?q=is%3Aopen+is%3Aissue+label%3Amelhorias) es un excelente lugar para encontrar cosas que puedan ser mejoradas. Caso no sepas por donde comenzar:
 
-**1.** Faça referência ao repositório oficial após o _fork_
+**1.** Luego del _fork_ hacer una referencia al repositorio oficial del proyecto
 
 ```
-git remote add upstream git@github.com:braziljs/eloquente-javascript.git
+git remote add upstream git@github.com:leodufer/eloquente-javascript.git
 ```
 
-**2.** Antes de iniciar o processo de contribuição, crie uma nova branch para fazer suas alterações.
+**2.** Antes de iniciar el proceso de colaboración, cree una nueva rama para hacer tus modificaciones
 
-Alguns exemplos:
+Algunos ejemplos:
 
-- Para tradução: `git checkout -b traducaoCapX`
-- Para revisões: `git checkout -b revisaoCapX`
-- Para erros: `git checkout -b correcaoCapX`
+- Para traducciones: `git checkout -b traduccionCapX`
+- Para revision: `git checkout -b revisionCapX`
+- Para errores: `git checkout -b correcionCapX`
 
-> Use qualquer nome que seja coerente com a contribuição que está sendo feita.
-> `X` representa o número do capítulo.
+> Use cualquier nombre que sea coherente con la colaboración que está siendo hecha.
+> `X` representa el numero de capítulo.
 
-**3.** Após realizar as alterações, é hora de fazer um commit com uma mensagem coerente do que foi feito. Exemplo:
+**3.** Luego de realizar las alteraciones, e hora de hacer un commit com un mensaje coherente con lo que fue hecho. Ejemplo:
 
 ```
 git add --all
-git commit -am ‘Adiciona tradução/revisão/melhoria capítulo X linha/linhas Y’
-git push origin traducaoCapX
+git commit -am ‘Añadir traduccion/revision/mejoria capítulo X linea/lineas Y’
+git push origin traduccionCapX
 ```
 
-**4.** Envie um _Pull Request_ com as alterações feitas, fazendo referência para o `master` do repositório oficial.
+**4.** Envie um _Pull Request_ com las alteraciones hechas, haciendo referencia para el `master` del repositorio oficial.
 
 **5.** Sua contribuição será analisada pela comunidade. Em alguns casos pediremos algumas alterações antes de dar merge.
 
