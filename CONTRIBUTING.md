@@ -94,11 +94,11 @@ Cuando estes en una situación en que no sabes exatamente como traducir una pala
 
 **2.** Adicione una tag `[TODO: ref #<número-de-issue-dae-discusión>]<palabra/término no traducido>[/TODO]` y continue trabayando en el archivo mientras no haya uaa conclusión en la _Issue_. Esse processo é importante para facilitar o acesso a itens pendentes e ter uma referência clara onde está ocorrendo a discussão.
 
-**3.** Após a conclusão da discussão na _Issue_, feche a mesma. Em seguida, remova a tag adicionada no passo 2 e atualize a palavra/termo não traduzido.
+**3.** Luego de la conclusión de la en la _Issue_, cierre la misma. Seguidamente, remueva la tag adicionada en el paso 2 y actualice la palabra/término no traducido.
 
-**4.** Como mantemos um arquivo de [glossário](https://github.com/braziljs/eloquente-javascript/blob/master/glossario.md), faça um _Pull Request_ adicionando o novo termo, colocando a referência `#<número-da-issue>` no termo/palavra em questão para fácil acesso no futuro.
+**4.** Como mantemos un archivo de [glossário](https://github.com/leodufer/eloquente-javascript/blob/master/glossario.md), has un _Pull Request_ adicionando el nuevo termino, colocando la referência `#<número-de-issue>` en el término/palabra en cuestión para fácil acesso en el futuro.
 
 ***
 
-Obrigado! :heart: :heart: :heart:
+Gracias! :heart: :heart: :heart:
 
